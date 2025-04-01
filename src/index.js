@@ -8,7 +8,7 @@ import { generateLocationMessage, generateMessage } from "./utils/messages.js";
 import { addUser, getUser, getUserInRoom, removeUser } from "./utils/users.js";
 
 const app = new express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const publicDirectoryPath = path.join(__dirname, "../public");
